@@ -1,13 +1,8 @@
+[workspace]
 members = ["contracts/*"]
 
 [profile.release.package.cw20-atomic-swap]
 codegen-units = 1
-incremental = false
-
-[profile.release.package.cw20-bonding]
-codegen-units = 1
-incremental = false
-
 [profile.release.package.cw20-escrow]
 codegen-units = 1
 incremental = false
