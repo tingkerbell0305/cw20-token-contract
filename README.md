@@ -18,27 +18,6 @@ contract you have written that you would like to share with the community.
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------  | -------------------------------------------------------------------------|
 | cw20-atomic-swap        | [Release v0.11.2](https://github.com/CosmWasm/cw-tokens/releases/download/v0.11.2/cw20_atomic_swap.wasm)          | [![Docs](https://docs.rs/cw20-atomic-swap/badge.svg)](https://docs.rs/cw20-atomic-swap)    |
 | cw20-bonding            | [Release v0.11.2](https://github.com/CosmWasm/cw-tokens/releases/download/v0.11.2/cw20_bonding.wasm)          | [![Docs](https://docs.rs/cw20-bonding/badge.svg)](https://docs.rs/cw20-bonding)    |
-| cw20-escrow             | [Release v0.11.2](https://github.com/CosmWasm/cw-tokens/releases/download/v0.11.2/cw20_escrow.wasm)          | [![Docs](https://docs.rs/cw20-escrow/badge.svg)](https://docs.rs/cw20-escrow)    |
-| cw20-staking            | [Release v0.11.2](https://github.com/CosmWasm/cw-tokens/releases/download/v0.11.2/cw20_staking.wasm)          | [![Docs](https://docs.rs/cw20-staking/badge.svg)](https://docs.rs/cw20-staking)    |
-| cw20-merkle-airdrop     | [Release v0.11.2](https://github.com/CosmWasm/cw-tokens/releases/download/v0.11.2/cw20_merkle_airdrop.wasm)          | [![Docs](https://docs.rs/cw20-merkle-airdrop/badge.svg)](https://docs.rs/cw20-merkle-airdrop)    |
-
-**Warning** None of these contracts have been audited and no liability is
-assumed for the use of this code. They are provided to turbo-start
-your projects.
-
-
-## Contracts
-
-All contracts add functionality around the CW20 Fungible Token standard:
-
-* [`cw20-atomic-swap`](./contracts/cw20-atomic-swap) an implementation of atomic swaps for
-both native and cw20 tokens.
-* [`cw20-bonding`](./contracts/cw20-bonding) a smart contract implementing arbitrary bonding curves,
-which can use native and cw20 tokens as reserve tokens.
-* [`cw20-staking`](./contracts/cw20-staking) provides staking derivatives,
-staking native tokens on your behalf and minting cw20 tokens that can
-be used to claim them. It uses `cw20-base` for all the cw20 logic and
-only implements the interactions with the staking module and accounting
 for prices.
 * [`cw20-escrow`](./contracts/cw20-escrow) is a basic escrow contract
 (arbiter can release or refund tokens) that is compatible with all native
