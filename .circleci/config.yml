@@ -3,12 +3,6 @@ workflows:
   version: 2
   test:
     jobs:
-      - contract_cw20_atomic_swap
-      - contract_cw20_bonding
-      - contract_cw20_escrow
-      - contract_cw20_staking
-      - contract_cw20_merkle_airdrop
-      - contract_cw20_streams
       - lint
       - wasm-build
   deploy:
