@@ -1,4 +1,3 @@
-[workspace]
 members = ["contracts/*"]
 
 [profile.release.package.cw20-atomic-swap]
