@@ -1,4 +1,3 @@
-# CosmWasm Tokens
 
 [![CircleCI](https://circleci.com/gh/CosmWasm/cw-plus/tree/master.svg?style=shield)](https://circleci.com/gh/CosmWasm/cw-plus/tree/master)
 
