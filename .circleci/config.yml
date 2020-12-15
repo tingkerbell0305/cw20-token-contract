@@ -3,16 +3,11 @@ workflows:
   version: 2
   test:
     jobs:
-      - lint
-      - wasm-build
-  deploy:
-    jobs:
-      - build_and_upload_contracts:
-          filters:
-           tags:
-             only: /^v[0-9]+\.[0-9]+\.[0-9]+.*/
-           branches:
-             ignore: /.*/
+      - contract_cw20_atomic_swap
+      - contract_cw20_bonding
+      - contract_cw20_escrow
+      - contract_cw20_staking
+      - contract_cw20_merkle_airdrop
       - build_and_upload_schemas:
           filters:
            tags:
